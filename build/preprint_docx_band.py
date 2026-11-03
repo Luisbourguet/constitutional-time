@@ -1,8 +1,8 @@
-"""DOCX finisher for the preprint, version 1.2 (3 November 2026).
+"""DOCX finisher for the preprint, version 1.2.1 (3 November 2026).
 
 Usage (from the repository root):
   pandoc preprint.md -o /tmp/raw.docx --resource-path=.
-  python3 build/preprint_docx_band.py /tmp/raw.docx Bourguet_2026_Constitutional_Time_preprint_v1-2.docx \
+  python3 build/preprint_docx_band.py /tmp/raw.docx Bourguet_2026_Constitutional_Time_preprint_v1-2-1.docx \
       "<status line>" "<title>" "<footer suffix>"
 
 What it does: black headings, justified body; a legend box above the title with three
@@ -109,7 +109,7 @@ gap = first.insert_paragraph_before(); gap.paragraph_format.space_after = Pt(6)
 
 def footer_line(fp):
     fp.text = ''; fp.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    r = fp.add_run('Version 1.2 · 3 November 2026' + fsuffix + ' · page '); r.font.size = Pt(8); r.font.color.rgb = rgb(RED)
+    r = fp.add_run('Version 1.2.1 · 3 November 2026' + fsuffix + ' · page '); r.font.size = Pt(8); r.font.color.rgb = rgb(RED)
     for kind, txt in (('begin', None), (None, 'PAGE'), ('end', None)):
         rr = fp.add_run(); rr.font.size = Pt(8); rr.font.color.rgb = rgb(RED)
         if kind:
@@ -138,6 +138,19 @@ for sec in d.sections:
     # footers on all pages: version, date, DOI, page number
     footer_line(sec.footer.paragraphs[0] if sec.footer.paragraphs else sec.footer.add_paragraph())
     footer_line(sec.first_page_footer.paragraphs[0] if sec.first_page_footer.paragraphs else sec.first_page_footer.add_paragraph())
+
+# Table 3 (pilot): pandoc splits short tables into equal columns; give the row labels room
+for t in d.tables:
+    try:
+        head = t.cell(0, 0).text.strip()
+    except IndexError:
+        continue
+    if head == 'Break type' and len(t.columns) == 5:
+        tblPr = t._tbl.tblPr
+        for old in tblPr.findall(qn('w:tblLayout')):
+            tblPr.remove(old)
+        lay = OxmlElement('w:tblLayout'); lay.set(qn('w:type'), 'fixed'); tblPr.append(lay)
+        set_widths(t, (Cm(5.2), Cm(2.9), Cm(2.9), Cm(2.3), Cm(2.0)))
 
 for shp in d.inline_shapes:
     r_ = shp.width / shp.height; shp.width = Cm(16); shp.height = int(Cm(16) / r_)

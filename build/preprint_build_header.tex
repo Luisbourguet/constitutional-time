@@ -1,7 +1,7 @@
-% Preprint header, version 1.2 (3 November 2026).
+% Preprint header, version 1.2.1 (3 November 2026).
 % Build (from the repository root):
-%   pandoc preprint.md -o Bourguet_2026_Constitutional_Time_preprint_v1-2.pdf \
-%     --pdf-engine=xelatex -H build/doi.tex -H build/preprint_build_header.tex \
+%   pandoc preprint.md -o Bourguet_2026_Constitutional_Time_preprint_v1-2-1.pdf \
+%     --pdf-engine=xelatex --lua-filter=build/breakable_links.lua -H build/doi.tex -H build/preprint_build_header.tex \
 %     -V mainfont="TeX Gyre Pagella" -V geometry:a4paper,margin=2.5cm -V fontsize=11pt \
 %     -V colorlinks=true -V linkcolor=bandred -V urlcolor=bandred -V citecolor=bandred
 % Colours: white text on each tab passes WCAG AA (contrast 5.0-6.0).
@@ -34,7 +34,7 @@
     \node[fill=bandgreen,text=white,font=\scriptsize\bfseries,inner xsep=6pt,inner ysep=3pt,anchor=west]
       (t3) at ([xshift=1pt]t2.east) {OPEN DATA + CODE};
     \node[fill=white,text=bandred,font=\scriptsize,inner xsep=5pt,inner ysep=2pt,anchor=east]
-      at ([xshift=-1.7cm,yshift=1.1cm]current page.south east) {Version 1.2 \,·\, 3 November 2026\BANDDOI};
+      at ([xshift=-1.7cm,yshift=1.1cm]current page.south east) {Version 1.2.1 \,·\, 3 November 2026\BANDDOI};
   \end{tikzpicture}}
 % --- legend box above the title (page 1) ---
 \newtcolorbox{preprintband}{enhanced,colback=bandbg,colframe=bandred,boxrule=0.8pt,leftrule=5pt,arc=1.5pt,
@@ -47,8 +47,10 @@
 \AtBeginEnvironment{longtable}{\footnotesize}
 % captions already carry their own bold "Figure n." label in the text
 \usepackage{caption}
+% addresses break only after a slash, dot or hyphen (pandoc loads xurl, which would break anywhere)
+\AtBeginDocument{\def\UrlBreaks{\do\/\do\.\do\-}\def\UrlBigBreaks{}}
 \captionsetup[figure]{labelformat=empty}
 \usepackage{titling}
 \setlength{\droptitle}{-3em}
-\pretitle{\begin{preprintband}\bandtab{bandred}{PREPRINT}\hspace{2pt}\bandtab{bandamber}{SUBMITTED}\hspace{2pt}\bandtab{bandgreen}{OPEN DATA + CODE}\par\smallskip Version 1.2 · 3 November 2026 · Submitted to a journal for double-anonymous peer review (venue withheld) · Not yet peer reviewed · CC BY 4.0\BANDDOITEXT\end{preprintband}\vspace{1.2em}\begin{center}\LARGE}
+\pretitle{\begin{preprintband}\bandtab{bandred}{PREPRINT}\hspace{2pt}\bandtab{bandamber}{SUBMITTED}\hspace{2pt}\bandtab{bandgreen}{OPEN DATA + CODE}\par\smallskip Version 1.2.1 · 3 November 2026 · Submitted to a journal for double-anonymous peer review (venue withheld) · Not yet peer reviewed · CC BY 4.0\BANDDOITEXT\end{preprintband}\vspace{1.2em}\begin{center}\LARGE}
 \posttitle{\par\end{center}\vskip 0.3em}
