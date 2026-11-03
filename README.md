@@ -27,7 +27,7 @@ pilot classification can be reproduced or re-coded.
 
 Nothing in the article is claimed as executed except the pilot in `data/…pilot_classification.csv`,
 which was made by one coder from the databank's secondary descriptions (a provisional classification
-drafted with AI assistance and reviewed by the author) and is published so that it can be
+drafted with AI assistance, awaiting the author's review) and is published so that it can be
 independently re-coded. The coding schema (four items) has not been applied to any order.
 
 ## Sources
