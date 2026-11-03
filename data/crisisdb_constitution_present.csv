@@ -1,0 +1,45 @@
+long_name,year_from,year_to,constitution,revolution,successful_revolution,civil_war,depose,suffrage,collapse,fragmentation
+Egypt - Late Old Kingdom,-2150,-2150,IP,P,P,P,SU,A,A,P
+Egypt - New Kingdom Ramesside Period,-1070,-1070,IP,A,A,P,SU,A,A,P
+Neo-Hittite Kingdoms,-950,-900,P,A,A,A,A,A,A,P
+Roman Kingdom,-509,-509,P,P,P,P,A,A,A,A
+Early Roman Republic,-494,-287,P,DIS,DIS,A,A,P,A,A
+Classical Crete,-450,-250,P,A,A,P,A,A,A,A
+Yehuda,-67,-63,P,A,A,P,P,A,A,A
+Late Roman Republic,-44,-31,P,A,A,P,IP,A,A,A
+Roman Empire - Dominate,306,324,P,A,A,P,A,A,A,A
+Western Roman Empire - Late Antiquity,455,476,P,A,A,A,P,A,A,P
+Asuka,538,668,P,A,A,A,A,A,A,A
+Carolingian Empire II,840,843,P,A,A,P,P,A,A,P
+Carolingian Empire II,877,888,P,A,A,P,A,A,A,P
+Icelandic Commonwealth,1000,1056,P,A,A,A,A,A,A,A
+Heian,1156,1185,P,A,A,P,P,A,A,A
+Holy Roman Empire - Hohenstaufen and Welf Dynasties,1254,1273,IP,A,A,P,A,A,A,P
+Icelandic Commonwealth,1261,1262,P,A,A,A,A,A,A,A
+French Kingdom - Early Valois,1337,1453,P,A,A,P,P,A,P,P
+Kingdom of Norway II,1363,1388,P,A,A,A,P,A,A,A
+Ashikaga Shogunate,1467,1467,P,A,A,P,A,A,A,P
+Egypt - Mamluk Sultanate III,1516,1517,P,A,A,A,P,A,A,A
+Inca Empire,1528,1570,P,A,A,P,A,A,P,A
+Spanish Empire I,1568,1609,P,DIS,A,A,A,A,A,A
+England Tudor-Stuart,1642,1651,P,P,DIS,P,A,A,A,A
+Akan - Pre-Ashanti,1670,1701,IP,DIS,A,A,A,A,A,A
+Mughal Empire,1748,1803,IP,A,A,P,P,A,A,P
+French Kingdom - Late Bourbon,1789,1799,P,P,P,P,A,P,A,A
+Haudenosaunee Confederacy - Late,1794,1794,P,IA,A,P,A,A,A,P
+Shuar - Colonial,1809,1831,P,P,A,A,A,A,A,A
+Spanish Empire II,1810,1821,P,P,P,P,P,A,A,A
+Ashanti Empire,1823,1895,P,P,A,P,P,A,A,A
+Iban - Brooke Raj and Colonial,1838,1858,P,A,A,A,P,A,A,A
+Austria - Habsburg Dynasty II,1848,1867,P,P,A,A,A,A,A,A
+Antebellum US,1861,1865,P,DIS,DIS,P,A,A,A,P
+Tokugawa Shogunate,1866,1868,P,P,P,P,P,A,A,A
+Napoleonic France,1870,1871,P,P,P,P,P,A,A,A
+Orokaiva - Colonial,1884,1942,P,A,A,A,A,A,A,P
+Kingdom of Hawaii - Post-Kamehameha Period,1887,1898,P,A,A,P,P,A,A,A
+Chuuk - Late Truk,1899,1914,P,A,A,A,A,A,A,A
+Qajar Dynasty,1905,1911,P,P,P,A,P,A,A,A
+Early United Mexican States,1910,1920,P,P,P,P,P,A,A,A
+Late Qing,1911,1912,P,P,P,P,P,A,A,A
+"Russian Empire, Romanov Dynasty II",1917,1923,P,P,P,P,P,A,A,P
+Austria - Habsburg Dynasty II,1918,1938,P,P,P,P,P,A,A,P
