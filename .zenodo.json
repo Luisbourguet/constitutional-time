@@ -1,15 +1,47 @@
 {
-  "title": "Constitutional time: who binds whom in the data on constitutions — companion repository",
-  "upload_type": "dataset",
-  "description": "<p>Companion repository for a manuscript under double-blind review (venue withheld). Contains: the 44 Seshat CrisisDB crises with constitutional change and their case descriptions (Polaris-2026 release, CC BY-NC-SA); a single-coder pilot classification of those cases by break type and access direction, with a reading note per case (not validated; published so that it can be independently re-coded); Python scripts that recompute the event counts and Figure 1 from the Comparative Constitutions Project Chronology v6.0 and Table 3 from the pilot; the figures; and the anonymised manuscript as submitted. Nothing in the article is claimed as executed except the pilot, with its status.</p>",
-  "creators": [{"name": "Bourguet, Luis", "orcid": "0000-0002-4673-4486", "affiliation": "LabOnt – Center for Ontology, Università degli Studi di Torino; Complex Systems Science Laboratory, Hiroshima University"}],
-  "keywords": ["social ontology", "transgenerationality", "constitutions", "constitutional change", "computational social science", "Comparative Constitutions Project", "Seshat"],
+  "title": "Constitutional Time: Who Binds Whom in the Data on Constitutions",
+  "upload_type": "publication",
+  "description": "<p>Preprint, version 1 (3 November 2026), prepared for double-anonymous peer review at a journal (venue withheld); not yet peer reviewed.</p><p>Comparative records of constitutions code each text as it stands at a date. None describes the relation between the people who made the norms and the people bound by them. The article argues that this omission is the social-contract model in data form, derives from Andina's ontology of transgenerational action four things a diachronic record must contain for each norm, tests existing records (Comparative Constitutions Project, Constitute, Seshat, stability episodes) against them, illustrates three patterns of constitutional time on eight cases from four regions, and states four measures and a world-scale extraction pipeline.</p><p>The deposit also contains the data and code: Python scripts that recompute the event counts and Figure 1 from the CCP Chronology v6.0 and Table 3 from the pilot; the 44 Seshat CrisisDB cases with constitutional change (CC BY-NC-SA); and a single-coder pilot classification of those cases by break type and access direction, with a note per case, published so that it can be independently re-coded.</p>",
+  "creators": [
+    {
+      "name": "Bourguet, Luis",
+      "orcid": "0000-0002-4673-4486",
+      "affiliation": "LabOnt – Center for Ontology, Università degli Studi di Torino; Complex Systems Science Laboratory, Hiroshima University"
+    }
+  ],
+  "keywords": [
+    "social ontology",
+    "transgenerationality",
+    "constitutions",
+    "constitutional change",
+    "computational social science",
+    "Comparative Constitutions Project",
+    "Seshat"
+  ],
   "license": "CC-BY-4.0",
   "access_right": "open",
-  "communities": [{"identifier": "computational-ontology"}],
-  "related_identifiers": [
-    {"relation": "isSupplementTo", "identifier": "https://github.com/Luisbourguet/constitutional-time", "resource_type": "software"},
-    {"relation": "references", "identifier": "10.5281/zenodo.6642229", "resource_type": "dataset"}
+  "communities": [
+    {
+      "identifier": "computational-ontology"
+    }
   ],
-  "notes": "Venue of the manuscript withheld during review. Data files derived from Seshat keep the databank's CC BY-NC-SA 4.0 licence."
+  "related_identifiers": [
+    {
+      "relation": "isSupplementedBy",
+      "identifier": "https://github.com/Luisbourguet/constitutional-time",
+      "resource_type": "software"
+    },
+    {
+      "relation": "references",
+      "identifier": "10.5281/zenodo.6642229",
+      "resource_type": "dataset"
+    },
+    {
+      "relation": "references",
+      "identifier": "10.5281/zenodo.23562193",
+      "resource_type": "publication-preprint"
+    }
+  ],
+  "notes": "Venue withheld during review. Data files derived from Seshat keep the databank's CC BY-NC-SA 4.0 licence; everything else CC BY 4.0.",
+  "publication_type": "preprint"
 }

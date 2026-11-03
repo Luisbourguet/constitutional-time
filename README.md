@@ -1,8 +1,14 @@
-# Constitutional time: who binds whom in the data on constitutions
+# Constitutional Time: Who Binds Whom in the Data on Constitutions
 
-Companion repository for a manuscript under review (venue withheld). It holds the data, code and
-figures the article uses, so that every count and the pilot classification can be reproduced or
-re-coded.
+**Preprint, version 1 (3 November 2026)** · Luis Bourguet · not yet peer reviewed · prepared for
+double-anonymous peer review at a journal (venue withheld) · CC BY 4.0
+
+- PDF: [`Bourguet_2026_Constitutional_Time_preprint_v1.pdf`](Bourguet_2026_Constitutional_Time_preprint_v1.pdf)
+- DOCX: [`Bourguet_2026_Constitutional_Time_preprint_v1.docx`](Bourguet_2026_Constitutional_Time_preprint_v1.docx)
+- Source: [`preprint.md`](preprint.md) (Pandoc; build files in `build/`)
+
+The repository also holds the data, code and figures the article uses, so that every count and the
+pilot classification can be reproduced or re-coded.
 
 ## What is here
 
@@ -14,13 +20,15 @@ re-coded.
 | `code/figure1_timeline.py` | Builds Figure 1 from the same file. |
 | `code/pilot_crosstab.py` | Builds Table 3 from the pilot classification. |
 | `figures/` | Figures 1 and 2 as PNG (300 dpi) and PDF. |
-| `manuscript/` | The anonymised text as submitted (Markdown). |
+| `manuscript/` | The anonymised text prepared for review (Markdown). |
+| `build/` | Header and DOCX finisher used to build the preprint (XeLaTeX via Pandoc). |
 
 ## Status
 
 Nothing in the article is claimed as executed except the pilot in `data/…pilot_classification.csv`,
-which was made by one coder from the databank's secondary descriptions and is published so that it
-can be independently re-coded. The coding schema (four items) has not been applied to any order.
+which was made by one coder from the databank's secondary descriptions (a provisional classification
+drafted with AI assistance and reviewed by the author) and is published so that it can be
+independently re-coded. The coding schema (four items) has not been applied to any order.
 
 ## Sources
 
