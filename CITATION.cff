@@ -17,3 +17,6 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.23903483
     description: Version v1.0-preprint
+  - type: doi
+    value: 10.5281/zenodo.23904721
+    description: Version v1.2-preprint
