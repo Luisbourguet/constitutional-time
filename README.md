@@ -51,6 +51,6 @@ Bourguet, L. 2026, *Constitutional Time: Who Binds Whom in the Data on Constitut
 |---|---|---|---|
 | v1.0-preprint | 2026-11-03 | [10.5281/zenodo.23903483](https://doi.org/10.5281/zenodo.23903483) | First deposit |
 | v1.0.1-preprint | 2026-11-03 | [10.5281/zenodo.23903503](https://doi.org/10.5281/zenodo.23903503) | Concept DOI written into PDF, DOCX, README and CITATION; text unchanged |
-| v1.1-preprint | 2026-11-03 | (this release) | Pilot reviewed and confirmed by the author (all 44 codes unchanged); provenance stated in §1 and §8; DOI in the data statement |
+| v1.1-preprint | 2026-11-03 | [10.5281/zenodo.23903794](https://doi.org/10.5281/zenodo.23903794) | Pilot reviewed and confirmed by the author (all 44 codes unchanged); provenance stated in §1 and §8; DOI in the data statement |
 
 The concept DOI [10.5281/zenodo.23903482](https://doi.org/10.5281/zenodo.23903482) always resolves to the latest version.
