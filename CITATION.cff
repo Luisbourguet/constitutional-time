@@ -20,3 +20,6 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.23904721
     description: Version v1.2-preprint
+  - type: doi
+    value: 10.5281/zenodo.23904965
+    description: Version v1.2.1-preprint

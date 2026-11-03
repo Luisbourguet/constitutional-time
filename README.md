@@ -53,6 +53,6 @@ Bourguet, L. 2026, *Constitutional Time: Who Binds Whom in the Data on Constitut
 | v1.0.1-preprint | 2026-11-03 | [10.5281/zenodo.23903503](https://doi.org/10.5281/zenodo.23903503) | Concept DOI written into PDF, DOCX, README and CITATION; text unchanged |
 | v1.1-preprint | 2026-11-03 | [10.5281/zenodo.23903794](https://doi.org/10.5281/zenodo.23903794) | Pilot reviewed and confirmed by the author (all 44 codes unchanged); provenance stated in §1 and §8; DOI in the data statement |
 | v1.2-preprint | 2026-11-03 | [10.5281/zenodo.23904721](https://doi.org/10.5281/zenodo.23904721) | Text aligned with the version submitted for review: Hobbes 1642 and Hume 1748 cited author-date; single quotes for a mentioned category; editors' initials before surname; status "submitted"; coloured preprint frame and tabs in PDF and DOCX |
-| v1.2.1-preprint | 2026-11-03 | *minted on release* | Layout fix: the repository link in the data statement ran into the margin and the frame; now a breakable URL. Text otherwise unchanged |
+| v1.2.1-preprint | 2026-11-03 | [10.5281/zenodo.23904965](https://doi.org/10.5281/zenodo.23904965) | Layout only: the repository link in the data statement ran into the margin and the frame, now wraps after a slash; DOCX Table 3 column widths. Text unchanged |
 
 The concept DOI [10.5281/zenodo.23903482](https://doi.org/10.5281/zenodo.23903482) always resolves to the latest version.
