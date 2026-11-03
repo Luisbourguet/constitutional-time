@@ -1,0 +1,15 @@
+{
+  "title": "Constitutional time: who binds whom in the data on constitutions — companion repository",
+  "upload_type": "dataset",
+  "description": "<p>Companion repository for a manuscript under double-blind review (venue withheld). Contains: the 44 Seshat CrisisDB crises with constitutional change and their case descriptions (Polaris-2026 release, CC BY-NC-SA); a single-coder pilot classification of those cases by break type and access direction, with a reading note per case (not validated; published so that it can be independently re-coded); Python scripts that recompute the event counts and Figure 1 from the Comparative Constitutions Project Chronology v6.0 and Table 3 from the pilot; the figures; and the anonymised manuscript as submitted. Nothing in the article is claimed as executed except the pilot, with its status.</p>",
+  "creators": [{"name": "Bourguet, Luis", "orcid": "0000-0002-4673-4486", "affiliation": "LabOnt – Center for Ontology, Università degli Studi di Torino; Complex Systems Science Laboratory, Hiroshima University"}],
+  "keywords": ["social ontology", "transgenerationality", "constitutions", "constitutional change", "computational social science", "Comparative Constitutions Project", "Seshat"],
+  "license": "CC-BY-4.0",
+  "access_right": "open",
+  "communities": [{"identifier": "computational-ontology"}],
+  "related_identifiers": [
+    {"relation": "isSupplementTo", "identifier": "https://github.com/Luisbourguet/constitutional-time", "resource_type": "software"},
+    {"relation": "references", "identifier": "10.5281/zenodo.6642229", "resource_type": "dataset"}
+  ],
+  "notes": "Venue of the manuscript withheld during review. Data files derived from Seshat keep the databank's CC BY-NC-SA 4.0 licence."
+}
