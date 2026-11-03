@@ -1,5 +1,7 @@
 # Constitutional Time: Who Binds Whom in the Data on Constitutions
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23903482.svg)](https://doi.org/10.5281/zenodo.23903482)
+
 **Preprint, version 1 (3 November 2026)** · Luis Bourguet · not yet peer reviewed · prepared for
 double-anonymous peer review at a journal (venue withheld) · CC BY 4.0
 
@@ -38,3 +40,16 @@ independently re-coded. The coding schema (four items) has not been applied to a
 ## Licence
 
 Text, code and figures: CC BY 4.0. The Seshat-derived data files keep the databank's CC BY-NC-SA licence.
+
+## How to cite
+
+Bourguet, L. 2026, *Constitutional Time: Who Binds Whom in the Data on Constitutions* (preprint, version 1), Zenodo, doi:[10.5281/zenodo.23903482](https://doi.org/10.5281/zenodo.23903482).
+
+## Versions
+
+| Version | Date | DOI | Change |
+|---|---|---|---|
+| v1.0-preprint | 2026-11-03 | [10.5281/zenodo.23903483](https://doi.org/10.5281/zenodo.23903483) | First deposit |
+| v1.0.1-preprint | 2026-11-03 | (this release) | Concept DOI written into PDF, DOCX, README and CITATION; text unchanged |
+
+The concept DOI [10.5281/zenodo.23903482](https://doi.org/10.5281/zenodo.23903482) always resolves to the latest version.
